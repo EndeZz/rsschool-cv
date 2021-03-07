@@ -1,0 +1,98 @@
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px auto;
+  width: 900px;
+  background: #cfcfcf;
+  /* line-height: 0.8; */
+}
+
+header {
+  background: #2a2649;
+  display: flex;
+  color: white;
+}
+
+footer {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.container {
+  display: block;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: #763cff;
+  background: #2a2649;
+  border-radius: 10px 10px 30px 30px;
+  text-transform: uppercase;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #763cff;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff0062;
+}
+
+.about {
+  margin: 10px 20px;
+}
+
+.content {
+  background: white;
+  padding: 0 30px;
+  overflow: auto;
+  padding: 10px;
+
+  display: block;
+  text-align: center;
+}
+.table__contacts {
+  display: flex;
+}
+
+.skills {
+  display: block;
+}
+.header__avatar {
+  margin: 10px;
+}
+
+.header__picture {
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 0 0 5px white;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.rs__logo {
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+  flex-basis: 30%;
+  line-height: 24px;
+}
