@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px auto;
   width: 900px;
@@ -7,36 +7,61 @@ html {
   /* line-height: 0.8; */
 }
 
-header {
-  background: #2a2649;
+.header {
+  background: rgb(42, 38, 73);
+  background: linear-gradient(
+    63deg,
+    rgba(42, 38, 73, 1) 0%,
+    rgba(73, 63, 145, 1) 100%
+  );
   display: flex;
   color: white;
 }
 
-footer {
+.footer {
   background: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 10px;
-  margin: 0;
+  padding-bottom: 20px;
 }
 
 .container {
-  display: block;
-  margin: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-h2 {
-  color: #763cff;
+.about {
+  margin: 10px 20px;
+}
+
+.content {
+  background: white;
+  padding: 0 20px;
+  overflow: auto;
+  display: block;
+  text-align: center;
+}
+.about__contacts,
+.about__skills,
+.about__experience,
+.about__education,
+.about__language {
+  color: #9365ff;
   background: #2a2649;
+  border-radius: 10px 10px 30px 30px;
+  padding: 2px 0;
+  padding-top: 4px;
+  text-transform: uppercase;
+}
+
+.about__info {
+  color: #9365ff;
   border-radius: 10px 10px 30px 30px;
   text-transform: uppercase;
 }
 
 hr {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 a {
@@ -50,26 +75,25 @@ a:hover {
   color: #ff0062;
 }
 
-.about {
-  margin: 10px 20px;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.content {
-  background: white;
-  padding: 0 30px;
-  overflow: auto;
-  padding: 10px;
-
-  display: block;
-  text-align: center;
+ul > li {
+  flex-basis: 30%;
+  line-height: 24px;
 }
-.table__contacts {
+
+.table__contacts,
+.table__skills {
   display: flex;
 }
 
 .skills {
   display: block;
 }
+
 .header__avatar {
   margin: 10px;
 }
@@ -82,17 +106,6 @@ a:hover {
   margin: 10px;
 }
 
-.rs__logo {
+.rs_logo {
   width: 50%;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 0 20px;
-  flex-basis: 30%;
-  line-height: 24px;
 }
