@@ -7,19 +7,18 @@ html {
   /* line-height: 0.8; */
 }
 
-header {
+.header {
   background: #2a2649;
   display: flex;
   color: white;
 }
 
-footer {
+.footer {
   background: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 10px;
-  margin: 0;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -36,7 +35,7 @@ h2 {
 }
 
 hr {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 a {
